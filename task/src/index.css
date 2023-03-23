@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Outfit:wght@500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+:root {
+  --font-family: 'Outfit', sans-serif;
+  --white: #fff
+}
+
+h1,
+.h1 {
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 133px;
+  color: var(--white);
+}
+
+.nav-link {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px; 
+  color: var(--white);
+}
+.nav-link:hover {
+  opacity: 0.8;
+}
+
+p , .desciription{
+  font-family: var(--font-family);
+  font-style: normal;
+  font-size: 18px;
+  Line-height: 150%;
+  color: var(--white);
+  opacity: 0.9;
+}
+h3 , .subtitle{
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  Line-height: 74px;
+  color: var(--white);
+}
+.nav-raght{
+   justify-content: flex-end;
+   width: 100%;
+}
