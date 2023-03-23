@@ -75,3 +75,8 @@ h3 , .subtitle{
 .ant-drawer-title{
   display: none !important;
 }
+@media (max-width:428px){
+  .ant-drawer-content-wrapper{
+    width: 80% !important;
+  }
+}
