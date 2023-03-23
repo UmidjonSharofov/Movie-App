@@ -79,4 +79,7 @@ h3 , .subtitle{
   .ant-drawer-content-wrapper{
     width: 80% !important;
   }
+  .nav-link {
+    font-size: 16px;
+  }
 }

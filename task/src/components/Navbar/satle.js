@@ -5,17 +5,18 @@ import { ReactComponent as notification } from "../../assets/icon/qon.svg";
 
 const Contanier = styled.header`
   width: 100%;
+  position: fixed;
   background: linear-gradient(
     180deg,
     #0b1220,
     12.29%,
     rgba(0, 0, 0, 0.07) 100%
-  );
-  .nav-items-menu {
-    flex-direction: column;
-
-  }
-`;
+    );
+    .nav-items-menu {
+      flex-direction: column;
+      
+    }
+    `;
 const Wrapper = styled.div`
   max-width: 1440px;
   width: 100%;

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Contanier, Wrapper, Column, Logo, NavItems, Search, Notification } from './satle'
 import { HiMenu } from 'react-icons/hi'
 import { Drawer } from 'antd'
@@ -9,6 +9,21 @@ import { AiOutlineClose } from 'react-icons/ai'
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [placement, setPlacement] = useState('left');
+  const [scrolled,setScrolled]=useState(false)
+
+  useEffect(()=>{
+     const hendleScrol=()=>{
+      if(window.scrollY){
+         setScrolled(true)
+      }else{
+         setScrolled(false)
+      }
+     }
+     window.addEventListener('scroll',hendleScrol)
+     return ()=>{
+      window.removeEventListener('scroll',hendleScrol)
+     }
+  },[])
   const showDrawer = () => {
     setOpen(true);
   };
@@ -19,7 +34,7 @@ const Navbar = () => {
     setPlacement(e.target.value);
   };
   return (
-    <Contanier>
+    <Contanier style={{backgroundColor: scrolled && 'crimson'}}>
       <Drawer title="Basic Drawer"
         placement={placement}
         closable={false}
