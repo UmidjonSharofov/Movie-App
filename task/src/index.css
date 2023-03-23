@@ -36,6 +36,15 @@ h1,
 .nav-link:hover {
   opacity: 0.8;
 }
+.nav-link-menu{
+  font-family: var(--font-family);
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px; 
+  letter-spacing: 0.03em;
+  color:  red !important;
+}
 
 p , .desciription{
   font-family: var(--font-family);
@@ -56,4 +65,13 @@ h3 , .subtitle{
 .nav-raght{
    justify-content: flex-end;
    width: 100%;
+}
+.nav-items-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ height: 100%;
+}
+.ant-drawer-title{
+  display: none !important;
 }
