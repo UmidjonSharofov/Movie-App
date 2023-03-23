@@ -21,18 +21,38 @@ const Wrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   gap: 40px;
+  .menu {
+    display: none;
+  }
   @media (max-width: 1300px) {
     padding: 40px 46px;
+    height: 110px;
   }
-  @media (max-width: 120px) {
+  @media (max-width: 1050px) {
     padding: 30px 36px;
+    height: 90px;
+
+    .menu {
+      display: block;
+    }
+    .menu svg {
+      fill: #fff;
+      width: 30px;
+      height: 30px;
+    }
+  }
+  @media (max-width: 1200px) {
+    .nav-raght {
+      display: none;
+      height: 100px;
+    }
   }
 `;
 const Column = styled.div`
   display: flex;
   align-items: center;
 `;
-const Logo = styled(logo)``
+const Logo = styled(logo)``;
 
 const NavItems = styled.ul`
   display: flex;
