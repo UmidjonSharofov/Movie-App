@@ -1,10 +1,12 @@
 import React from 'react'
 import { Navbar } from '../components'
+import './stayle'
+import { Contanier } from './stayle'
 
 export const Home = () => {
   return (
-    <div>
+    <Contanier>
      <Navbar></Navbar>
-    </div>
+    </Contanier>
   )
 }
