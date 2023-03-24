@@ -75,6 +75,22 @@ h3 , .subtitle{
 .ant-drawer-title{
   display: none !important;
 }
+
+.ant-modal-header , .ant-modal-footer, .ant-modal-close {
+  display: none;
+}
+.ant-modal-content {
+  padding: 0 !important;
+}
+:where(.css-dev-only-do-not-override-mxhywb).ant-modal-root .ant-modal-wrap {
+  top: 340px !important ;
+} 
+@media (max-width:600px){
+ 
+  :where(.css-dev-only-do-not-override-mxhywb).ant-modal-root .ant-modal-wrap{
+    width: 80%;
+  }
+}
 @media (max-width:428px){
   .ant-drawer-content-wrapper{
     width: 80% !important;
