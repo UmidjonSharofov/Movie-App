@@ -6,7 +6,7 @@ const Contanier = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 110vh;
 
 `;
 export {Contanier}
