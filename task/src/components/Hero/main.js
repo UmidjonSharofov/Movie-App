@@ -7,8 +7,8 @@ const Wrapper = styled.div`
   max-width: 1440px;
   width: 100%;
   margin: auto;
-  padding: 30px 56px;
-
+  padding: 0px 56px;
+  padding-top: 150px;
   /* @media (max-width: 1300px) {
     padding: 30px 46px;
     height: 110px;
@@ -33,5 +33,12 @@ const Wrapper = styled.div`
     gap: 15px;
   } */
 `;
-
-export {Contanier,Wrapper}
+const Title=styled.h1`
+`
+const SubTitle=styled.h3`
+  margin: 6px ;
+`
+const Description =styled.p`
+ max-width: 514px;
+`
+export {Contanier,Wrapper,Title,SubTitle,Description}

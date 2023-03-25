@@ -6,6 +6,7 @@ import { ReactComponent as notification } from "../../assets/icon/qon.svg";
 const Contanier = styled.header`
   width: 100%;
   position: fixed;
+  z-index: 999;
     .nav-items-menu {
       flex-direction: column;
       
