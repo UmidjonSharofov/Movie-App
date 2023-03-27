@@ -1,10 +1,13 @@
-import React from 'react'
-import { Container } from './main'
+import React from "react";
+import { Container } from "./main";
 
-function Button({children,icon,type}) {
+function Button({ children, icon, type, ...props }) {
   return (
-    <Container type={type} icon={icon}>{icon && icon}{children}</Container>
-  )
+    <Container type={type} icon={icon} {...props}>
+      {icon && icon}
+      {children}
+    </Container>
+  );
 }
 
-export default Button
+export default Button;
