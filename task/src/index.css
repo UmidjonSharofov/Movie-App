@@ -72,19 +72,7 @@ h3 , .subtitle{
   justify-content: center;
  height: 100%;
 }
-.ant-drawer-title{
-  display: none !important;
-}
 
-.ant-modal-header , .ant-modal-footer, .ant-modal-close {
-  display: none;
-}
-.ant-modal-content {
-  padding: 0 !important;
-}
-:where(.css-dev-only-do-not-override-mxhywb).ant-modal-root .ant-modal-wrap {
-  top: 340px !important ;
-} 
 @media (max-width: 1300px) {
   h1,
   .h1 {
