@@ -1,9 +1,9 @@
 import React from 'react'
 import { Container } from './main'
 
-function Button({children,icon}) {
+function Button({children,icon,type}) {
   return (
-    <Container>{icon && icon}{children}</Container>
+    <Container type={type} icon={icon}>{icon && icon}{children}</Container>
   )
 }
 
