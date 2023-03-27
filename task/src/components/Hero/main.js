@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {Rate} from 'antd'
 
 const Contanier = styled.header`
   width: 100%;
@@ -47,4 +48,8 @@ const Btns=styled.div`
   gap: 24px;
   margin-top: 41px;
 `
-export {Contanier,Wrapper,Title,SubTitle,Description,Btns}
+const Rating=styled(Rate)`
+  margin-top: 23px;
+  
+`
+export {Contanier,Wrapper,Title,SubTitle,Description,Btns, Rating}
