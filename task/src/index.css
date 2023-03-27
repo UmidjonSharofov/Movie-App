@@ -45,6 +45,9 @@ h1,
   letter-spacing: 0.03em;
   color:  red !important;
 }
+ .css-dev-only-do-not-override-mxhywb  {
+  width: fit-content !important;
+}
 
 p , .desciription{
   font-family: var(--font-family);
