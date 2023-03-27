@@ -28,7 +28,7 @@ const Wrapper = styled.div`
     padding-top: 140px;
   }
   @media (max-width: 428px) {
-    padding: 0px 36px;
+    padding: 0px 20px;
     padding-top: 110px;
   }
 `;
@@ -44,6 +44,9 @@ const Btns = styled.div`
   align-items: center;
   gap: 24px;
   margin-top: 41px;
+  @media (max-width: 428px) {
+    gap: 15px;
+  }
 `;
 const Rating = styled(Rate)`
   margin-top: 23px;
