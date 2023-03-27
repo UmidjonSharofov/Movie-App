@@ -85,8 +85,69 @@ h3 , .subtitle{
 :where(.css-dev-only-do-not-override-mxhywb).ant-modal-root .ant-modal-wrap {
   top: 340px !important ;
 } 
+@media (max-width: 1300px) {
+  h1,
+  .h1 {
+    font-size: 80px;
+    line-height: 128px;
+  }
+  h3 , .subtitle{
+    font-size: 45px;
+    Line-height: 65px;
+  }
+}
+@media (max-width: 1200px) {
+  h1,
+  .h1 {
+    font-size: 70px;
+    line-height: 124px;
+  }
+  h3 , .subtitle{
+    font-size: 38px;
+    Line-height: 60px;
+  }
+}
+@media (max-width: 1050px) {
+  h1,
+  .h1 {
+    font-size: 34px;
+    line-height: 55px;
+  }
+  h3 , .subtitle{
+    font-size: 34px;
+    Line-height: 55px;
+  }
+  p , .desciription{
+    font-size: 16px;
+    Line-height: 140%;
+  }
+}
+
+@media (max-width: 767px) {
+  h1,
+  .h1 {
+    font-size: 60px;
+    line-height:90px;
+  }
+  h3 , .subtitle{
+    font-size: 28px;
+    Line-height: 50px;
+  }
+  p , .desciription{
+    font-size: 14px;
+    Line-height: 140%;
+  }
+}
 @media (max-width:600px){
- 
+  h1,
+  .h1 {
+    font-size: 50px;
+    line-height:60px;
+  }
+  h3 , .subtitle{
+    font-size: 26px;
+    Line-height: 45px;
+  }
   :where(.css-dev-only-do-not-override-mxhywb).ant-modal-root .ant-modal-wrap{
     width: 80%;
   }
@@ -98,4 +159,16 @@ h3 , .subtitle{
   .nav-link {
     font-size: 16px;
   }
+    h1,
+    .h1 {
+      font-size: 40px;
+      line-height:60px;
+    }
+    h3 , .subtitle{
+      font-size: 24px;
+      Line-height: 40px;
+    }
+  
 }
+
+

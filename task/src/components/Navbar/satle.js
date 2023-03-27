@@ -30,6 +30,12 @@ const Wrapper = styled.div`
     padding: 30px 46px;
     height: 110px;
   }
+  @media (max-width: 1200px) {
+    .nav-raght {
+      display: none;
+      height: 100px;
+    }
+  }
   @media (max-width: 1050px) {
     padding: 30px 36px;
     height: 90px;
@@ -44,12 +50,6 @@ const Wrapper = styled.div`
       fill: #fff;
       width: 30px;
       height: 30px;
-    }
-  }
-  @media (max-width: 1200px) {
-    .nav-raght {
-      display: none;
-      height: 100px;
     }
   }
   @media (max-width: 767px) {
