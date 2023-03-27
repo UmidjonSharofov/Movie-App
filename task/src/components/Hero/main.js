@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {Rate} from 'antd'
+import { Rate } from "antd";
 
 const Contanier = styled.header`
   width: 100%;
@@ -10,46 +10,42 @@ const Wrapper = styled.div`
   margin: auto;
   padding: 0px 86px;
   padding-top: 180px;
-  /* @media (max-width: 1300px) {
-    padding: 30px 46px;
-    height: 110px;
-  }
-  @media (max-width: 1050px) {
-    padding: 30px 36px;
-    height: 90px;
-    
 
+  @media (max-width: 1300px) {
+    padding: 0px 76px;
+    padding-top: 170px;
   }
   @media (max-width: 1200px) {
-  
+    padding: 0px 66px;
+    padding-top: 160px;
+  }
+  @media (max-width: 1050px) {
+    padding: 0px 56px;
+    padding-top: 150px;
   }
   @media (max-width: 767px) {
-    padding: 20px 26px;
-    height: 80px;
-    grid-template-columns: auto 0.5fr 1fr;
-    gap: 20px;
+    padding: 0px 46px;
+    padding-top: 140px;
   }
   @media (max-width: 428px) {
-    padding: 15px 15px;
-    gap: 15px;
-  } */
+    padding: 0px 36px;
+    padding-top: 110px;
+  }
 `;
-const Title=styled.h1`
-`
-const SubTitle=styled.h3`
-  margin: 6px ;
-`
-const Description =styled.p`
- max-width: 514px;
-`
-const Btns=styled.div`
+const Title = styled.h1``;
+const SubTitle = styled.h3`
+  margin: 6px;
+`;
+const Description = styled.p`
+  max-width: 514px;
+`;
+const Btns = styled.div`
   display: flex;
   align-items: center;
   gap: 24px;
   margin-top: 41px;
-`
-const Rating=styled(Rate)`
+`;
+const Rating = styled(Rate)`
   margin-top: 23px;
-  
-`
-export {Contanier,Wrapper,Title,SubTitle,Description,Btns, Rating}
+`;
+export { Contanier, Wrapper, Title, SubTitle, Description, Btns, Rating };
