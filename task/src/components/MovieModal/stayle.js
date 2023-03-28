@@ -14,11 +14,25 @@ const Container = styled(Modal)`
     top: 25% !important ;
   }
 `;
-const Icon = styled.span`
+const Icons=styled.div`
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+
+`
+const Icon = styled.div`
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #333;
   svg {
     width: 35px;
     height: 35px;
   }
 `;
 
-export { Container, Icon };
+export { Container, Icon,Icons};
